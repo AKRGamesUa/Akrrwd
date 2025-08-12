@@ -1,0 +1,40 @@
+#AkrRwd plugin - This is a plugin that will help you create a random rewards system
+#and set a time after which the team will be available to your players again,
+#this plugin also has flexible settings. More information on the SpigotMC and Modrinth platforms.
+
+cooldown: 3600 #Cooldown in seconds
+language: en #Plugin locale: ua, pl, en
+bstats-enabled: true #Plugin statistics
+actions: #Reward commands list
+  reward1: #Rewardid
+    commands:
+      - "give %player% diamond 1" #Command 1 | Placeholder: %player%
+      - "msg %player% You got a diamond!" #Command 2 or more commands in your opinion
+    description: "<SOLID:#00FF00>A shiny diamond" #Command description
+  reward2:
+    commands:
+      - "give %player% emerald 2"
+      - "msg %player% You got 2 emeralds!"
+    description: "<SOLID:#00FF00>Two sparkling emeralds"
+  reward3:
+    commands:
+      - "effect give %player% speed 30 1"
+      - "msg %player% You got a speed boost!"
+    description: "<SOLID:#00FF00>A 30-second speed boost"
+bossbar: #Progress bossbar settings
+  color: BLUE #Bossbar colors: BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
+  style: SOLID #Bossbar styles: SOLID, SEGMENTED_6, SEGMENTED_10, SEGMENTED_12, SEGMENTED_20
+  text: "Cooldown: <GRADIENT:#084CFB>%days%</GRADIENT:#0024FF> &fdays, <GRADIENT:#084CFB>%hours%</GRADIENT:#0024FF> &fhours, <GRADIENT:#084CFB>%minutes%</GRADIENT:#0024FF> &fminutes, <GRADIENT:#084CFB>%seconds%</GRADIENT:#0024FF> &fseconds." #Bossbar text. Placeholders list: %days%, %hours%, %minutes%, %seconds%.
+title: #Title settings
+  fade-in: 10 #Animation time is specified in ticks. 20 ticks = 1 second.
+  stay: 70
+  fade-out: 20
+sounds: #Sounds settings
+  success: #Success operation sound
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP #Sound list in site: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html (Version: 1.21.8) If you are looking for sounds for older versions then google for example: Spigot api 1.16.5 sound list. For other versions search for sounds in the same way.
+    volume: 1.0
+    pitch: 1.0
+  failure: #Failure operation sound
+    sound: BLOCK_NOTE_BLOCK_BASS #Sound list in site: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html (Version: 1.21.8) If you are looking for sounds for older versions then google for example: Spigot api 1.16.5 sound list. For other versions search for sounds in the same way.
+    volume: 1.0
+    pitch: 1.0

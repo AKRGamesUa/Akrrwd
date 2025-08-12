@@ -1,0 +1,40 @@
+name: Akrrwd
+version: 1.0
+main: ua.akrgames.akrrwd.Akrrwd
+api-version: 1.13
+commands:
+  randomreward:
+    description: Gives a random reward to the player
+    usage: /<command>
+  akrrwd:
+    description: Manages the Akrrwd plugin
+    usage: /<command> <help|reload|reset|settime|toggle> [args]
+    subcommands:
+      help:
+        description: Shows help for all commands
+        usage: /<command> help
+      reload:
+        description: Reloads the plugin configuration
+        usage: /<command> reload
+        permission: akrrwd.reload
+      reset:
+        description: Resets cooldown for a player or all players
+        usage: /<command> reset <player/all>
+        permission: akrrwd.reset
+      settime:
+        description: Sets cooldown for a player
+        usage: /<command> settime <player> <days,hours,minutes,seconds>
+        permission: akrrwd.settime
+      toggle:
+        description: Toggles the BossBar display
+        usage: /<command> toggle
+permissions:
+  akrrwd.reload:
+    description: Allows reloading the plugin configuration
+    default: op
+  akrrwd.reset:
+    description: Allows resetting cooldowns
+    default: op
+  akrrwd.settime:
+    description: Allows setting cooldowns for players
+    default: op

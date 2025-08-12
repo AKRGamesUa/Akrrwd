@@ -1,0 +1,93 @@
+en:
+  plugin-prefix: "<GRADIENT:#084CFB>[Akrrwd]</GRADIENT:#0024FF>"
+  player-only: "%prefix% &cThis command can only be used by players!"
+  no-permission: "%prefix% &cYou do not have permission to use this command!"
+  invalid-usage: "%prefix% &cInvalid usage! Use /akrrwd help for a list of commands."
+  cooldown: "%prefix% &fYou must wait <GRADIENT:#084CFB>%time%</GRADIENT:#0024FF> &fbefore using this command again!"
+  reward-received: "%prefix% &fYou received: %reward%!"
+  reload-success: "%prefix% &fPlugin configuration reloaded successfully!"
+  cooldown-reset: "%prefix% &fCooldown reset for <GRADIENT:#084CFB>%player%</GRADIENT:#0024FF>&f!"
+  cooldown-reset-all: "%prefix% &fAll cooldowns have been reset!"
+  player-not-found: "%prefix% &cPlayer <GRADIENT:#084CFB>%player%</GRADIENT:#0024FF> &cnot found!"
+  invalid-time-format: "%prefix% &cInvalid time format! Use days,hours,minutes,seconds"
+  invalid-time-negative: "%prefix% &cTime cannot be negative!"
+  cooldown-set: "%prefix% &fCooldown for <GRADIENT:#084CFB>%player%</GRADIENT:#0024FF> &fset to <GRADIENT:#084CFB>%time%</GRADIENT:#0024FF>&f!"
+  bossbar-enabled: "%prefix% &fBossBar enabled!"
+  bossbar-disabled: "%prefix% &cBossBar disabled!"
+  title-enabled: false
+  title-text: "<GRADIENT:#084CFB>Reward Received!</GRADIENT:#0024FF>"
+  subtitle-text: "&f%player% got %reward%!"
+  actionbar-enabled: false
+  actionbar-text: "&fYou received: %reward%!"
+  cooldown-expired-enabled: true
+  cooldown-expired: "%prefix% <GRADIENT:#084CFB>%player%</GRADIENT:#0024FF>&f, your cooldown has expired! Use /randomreward to claim a reward!"
+  help: |
+    <GRADIENT:#084CFB>=== Akrrwd Plugin Help ===</GRADIENT:#0024FF>
+    <GRADIENT:#084CFB>/randomreward</GRADIENT:#0024FF> &f- Gives a random reward if cooldown has expired.
+    <GRADIENT:#084CFB>/akrrwd help</GRADIENT:#0024FF> &f- Shows this help message.
+    <GRADIENT:#084CFB>/akrrwd reload</GRADIENT:#0024FF> &f- Reloads the plugin configuration. (Permission: akrrwd.reload)
+    <GRADIENT:#084CFB>/akrrwd reset <player/all></GRADIENT:#0024FF> &f- Resets cooldown for a player or all players. (Permission: akrrwd.reset)
+    <GRADIENT:#084CFB>/akrrwd settime <player> <days,hours,minutes,seconds></GRADIENT:#0024FF> &f- Sets cooldown for a player. (Permission: akrrwd.settime)
+    <GRADIENT:#084CFB>/akrrwd toggle</GRADIENT:#0024FF> &f- Toggles the BossBar display. (Player only)
+ua:
+  plugin-prefix: "<GRADIENT:#084CFB>[Akrrwd]</GRADIENT:#0024FF>"
+  player-only: "%prefix% &cЦю команду можуть використовувати лише гравці!"
+  no-permission: "%prefix% &cУ вас немає дозволу на виконання цієї команди!"
+  invalid-usage: "%prefix% &cНеправильне використання! Використовуйте /akrrwd help для списку команд."
+  cooldown: "%prefix% &fВи повинні зачекати <GRADIENT:#084CFB>%time%</GRADIENT:#0024FF> &fперед повторним використанням команди!"
+  reward-received: "%prefix% &fВи отримали: %reward%!"
+  reload-success: "%prefix% &fКонфігурацію плагіна успішно перезавантажено!"
+  cooldown-reset: "%prefix% &fТаймер скинуто для <GRADIENT:#084CFB>%player%</GRADIENT:#0024FF>&f!"
+  cooldown-reset-all: "%prefix% &fУсі таймери скинуто!"
+  player-not-found: "%prefix% &cГравця <GRADIENT:#084CFB>%player%</GRADIENT:#0024FF> &cне знайдено!"
+  invalid-time-format: "%prefix% &cНеправильний формат часу! Використовуйте дні,години,хвилини,секунди"
+  invalid-time-negative: "%prefix% &cЧас не може бути від’ємним!"
+  cooldown-set: "%prefix% &fТаймер для <GRADIENT:#084CFB>%player%</GRADIENT:#0024FF> &fвстановлено на <GRADIENT:#084CFB>%time%</GRADIENT:#0024FF>&f!"
+  bossbar-enabled: "%prefix% &fБос-бар увімкнено!"
+  bossbar-disabled: "%prefix% &cБос-бар вимкнено!"
+  title-enabled: false
+  title-text: "<GRADIENT:#084CFB>Нагороду отримано!</GRADIENT:#0024FF>"
+  subtitle-text: "&f%player% отримав %reward%!"
+  actionbar-enabled: false
+  actionbar-text: "&fВи отримали: %reward%!"
+  cooldown-expired-enabled: true
+  cooldown-expired: "%prefix% <GRADIENT:#084CFB>%player%</GRADIENT:#0024FF>&f, ваш таймер завершився! Використовуйте /randomreward для отримання нагороди!"
+  help: |
+    <GRADIENT:#084CFB>=== Допомога по плагіну Akrrwd ===</GRADIENT:#0024FF>
+    <GRADIENT:#084CFB>/randomreward</GRADIENT:#0024FF> &f- Видає випадкову нагороду, якщо таймер завершився.
+    <GRADIENT:#084CFB>/akrrwd help</GRADIENT:#0024FF> &f- Показує це повідомлення довідки.
+    <GRADIENT:#084CFB>/akrrwd reload</GRADIENT:#0024FF> &f- Перезавантажує конфігурацію плагіна. (Дозвіл: akrrwd.reload)
+    <GRADIENT:#084CFB>/akrrwd reset <player/all></GRADIENT:#0024FF> &f- Скидає таймер для гравця або всіх гравців. (Дозвіл: akrrwd.reset)
+    <GRADIENT:#084CFB>/akrrwd settime <player> <days,hours,minutes,seconds></GRADIENT:#0024FF> &f- Встановлює таймер для гравця. (Дозвіл: akrrwd.settime)
+    <GRADIENT:#084CFB>/akrrwd toggle</GRADIENT:#0024FF> &f- Перемикає відображення бос-бару. (Тільки для гравців)
+pl:
+  plugin-prefix: "<GRADIENT:#084CFB>[Akrrwd]</GRADIENT:#0024FF>"
+  player-only: "%prefix% &cTa komenda może być używana tylko przez graczy!"
+  no-permission: "%prefix% &cNie masz uprawnień do użycia tej komendy!"
+  invalid-usage: "%prefix% &cNieprawidłowe użycie! Użyj /akrrwd help, aby zobaczyć listę komend."
+  cooldown: "%prefix% &fMusisz odczekać <GRADIENT:#084CFB>%time%</GRADIENT:#0024FF> &fzanim użyjesz tej komendy ponownie!"
+  reward-received: "%prefix% &fOtrzymałeś: %reward%!"
+  reload-success: "%prefix% &fKonfiguracja wtyczki została pomyślnie przeładowana!"
+  cooldown-reset: "%prefix% &fCzas oczekiwania zresetowany dla <GRADIENT:#084CFB>%player%</GRADIENT:#0024FF>&f!"
+  cooldown-reset-all: "%prefix% &fWszystkie czasy oczekiwania zostały zresetowane!"
+  player-not-found: "%prefix% &cGracz <GRADIENT:#084CFB>%player%</GRADIENT:#0024FF> &cnie został znaleziony!"
+  invalid-time-format: "%prefix% &cNieprawidłowy format czasu! Użyj dni,godziny,minuty,sekundy"
+  invalid-time-negative: "%prefix% &cCzas nie może być ujemny!"
+  cooldown-set: "%prefix% &fCzas oczekiwania dla <GRADIENT:#084CFB>%player%</GRADIENT:#0024FF> &fustawiono na <GRADIENT:#084CFB>%time%</GRADIENT:#0024FF>&f!"
+  bossbar-enabled: "%prefix% &fPasek bossa włączony!"
+  bossbar-disabled: "%prefix% &cPasek bossa wyłączony!"
+  title-enabled: false
+  title-text: "<GRADIENT:#084CFB>Nagroda odebrana!</GRADIENT:#0024FF>"
+  subtitle-text: "&f%player% otrzymał %reward%!"
+  actionbar-enabled: false
+  actionbar-text: "&fOtrzymałeś: %reward%!"
+  cooldown-expired-enabled: true
+  cooldown-expired: "%prefix% <GRADIENT:#084CFB>%player%</GRADIENT:#0024FF>&f, twój czas oczekiwania minął! Użyj /randomreward, aby odebrać nagrodę!"
+  help: |
+    <GRADIENT:#084CFB>=== Pomoc wtyczki Akrrwd ===</GRADIENT:#0024FF>
+    <GRADIENT:#084CFB>/randomreward</GRADIENT:#0024FF> &f- Daje losową nagrodę, jeśli czas oczekiwania minął.
+    <GRADIENT:#084CFB>/akrrwd help</GRADIENT:#0024FF> &f- Pokazuje tę wiadomość pomocy.
+    <GRADIENT:#084CFB>/akrrwd reload</GRADIENT:#0024FF> &f- Przeładowuje konfigurację wtyczki. (Uprawnienie: akrrwd.reload)
+    <GRADIENT:#084CFB>/akrrwd reset <player/all></GRADIENT:#0024FF> &f- Resetuje czas oczekiwania dla gracza lub wszystkich graczy. (Uprawnienie: akrrwd.reset)
+    <GRADIENT:#084CFB>/akrrwd settime <player> <days,hours,minutes,seconds></GRADIENT:#0024FF> &f- Ustawia czas oczekiwania dla gracza. (Uprawnienie: akrrwd.settime)
+    <GRADIENT:#084CFB>/akrrwd toggle</GRADIENT:#0024FF> &f- Przełącza wyświetlanie paska bossa. (Tylko dla graczy)
