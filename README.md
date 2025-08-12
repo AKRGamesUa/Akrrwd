@@ -1,0 +1,3 @@
+#AkrRwd plugin - This is a plugin that will help you create a random rewards system
+#and set a time after which the team will be available to your players again,
+#this plugin also has flexible settings. More information on the SpigotMC and Modrinth platforms.
