@@ -21,6 +21,17 @@ en:
   actionbar-text: "&fYou received: %reward%!"
   cooldown-expired-enabled: true
   cooldown-expired: "%prefix% <GRADIENT:#084CFB>%player%</GRADIENT:#0024FF>&f, your cooldown has expired! Use /randomreward to claim a reward!"
+  update-available-log-1: "--------------------------------------"
+  update-available-log-2: " AkrRwd update available!"
+  update-available-log-3: " Current version : %current%"
+  update-available-log-4: " Latest version  : %latest%"
+  update-available-log-5: " Download: %url%"
+  update-available-log-6: "--------------------------------------"
+  update-up-to-date: "[AkrRwd] Plugin is up to date (v%current%)."
+  update-unknown: "[AkrRwd] Update checker: Could not reach SpigotMC. Check your internet connection."
+  update-notify-1: "%prefix% &fAn update is available!"
+  update-notify-2: "%prefix% &fCurrent: &c%current% &f-> Latest: &a%latest%"
+  update-notify-3: "%prefix% &fDownload: &b%url%"
   help: |
     <GRADIENT:#084CFB>=== Akrrwd Plugin Help ===</GRADIENT:#0024FF>
     <GRADIENT:#084CFB>/randomreward</GRADIENT:#0024FF> &f- Gives a random reward if cooldown has expired.
@@ -52,6 +63,17 @@ ua:
   actionbar-text: "&fВи отримали: %reward%!"
   cooldown-expired-enabled: true
   cooldown-expired: "%prefix% <GRADIENT:#084CFB>%player%</GRADIENT:#0024FF>&f, ваш таймер завершився! Використовуйте /randomreward для отримання нагороди!"
+  update-available-log-1: "--------------------------------------"
+  update-available-log-2: " Доступне оновлення AkrRwd!"
+  update-available-log-3: " Поточна версія : %current%"
+  update-available-log-4: " Остання версія : %latest%"
+  update-available-log-5: " Завантажити: %url%"
+  update-available-log-6: "--------------------------------------"
+  update-up-to-date: "[AkrRwd] Плагін оновлений (v%current%)."
+  update-unknown: "[AkrRwd] Перевірка оновлень: Не вдалося зв'язатися зі SpigotMC. Перевірте підключення до інтернету."
+  update-notify-1: "%prefix% &fДоступне оновлення!"
+  update-notify-2: "%prefix% &fПоточна: &c%current% &f-> Остання: &a%latest%"
+  update-notify-3: "%prefix% &fЗавантажити: &b%url%"
   help: |
     <GRADIENT:#084CFB>=== Допомога по плагіну Akrrwd ===</GRADIENT:#0024FF>
     <GRADIENT:#084CFB>/randomreward</GRADIENT:#0024FF> &f- Видає випадкову нагороду, якщо таймер завершився.
@@ -83,6 +105,17 @@ pl:
   actionbar-text: "&fOtrzymałeś: %reward%!"
   cooldown-expired-enabled: true
   cooldown-expired: "%prefix% <GRADIENT:#084CFB>%player%</GRADIENT:#0024FF>&f, twój czas oczekiwania minął! Użyj /randomreward, aby odebrać nagrodę!"
+  update-available-log-1: "--------------------------------------"
+  update-available-log-2: " Dostępna aktualizacja AkrRwd!"
+  update-available-log-3: " Aktualna wersja : %current%"
+  update-available-log-4: " Najnowsza wersja: %latest%"
+  update-available-log-5: " Pobierz: %url%"
+  update-available-log-6: "--------------------------------------"
+  update-up-to-date: "[AkrRwd] Wtyczka jest aktualna (v%current%)."
+  update-unknown: "[AkrRwd] Sprawdzanie aktualizacji: Nie można połączyć się ze SpigotMC. Sprawdź połączenie z internetem."
+  update-notify-1: "%prefix% &fDostępna aktualizacja!"
+  update-notify-2: "%prefix% &fAktualna: &c%current% &f-> Najnowsza: &a%latest%"
+  update-notify-3: "%prefix% &fPobierz: &b%url%"
   help: |
     <GRADIENT:#084CFB>=== Pomoc wtyczki Akrrwd ===</GRADIENT:#0024FF>
     <GRADIENT:#084CFB>/randomreward</GRADIENT:#0024FF> &f- Daje losową nagrodę, jeśli czas oczekiwania minął.
